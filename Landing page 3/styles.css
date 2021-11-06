@@ -1,0 +1,474 @@
+@media screen and (max-width: 800px) {
+  .header1 .box {
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 160px 150px 50px;
+        grid-template-columns: 160px 150px 50px;
+  }
+  .header1 #ic {
+    position: relative;
+    top: -25px;
+    left: 880px;
+    cursor: pointer;
+  }
+  .header1 #ic:hover {
+    color: aqua;
+  }
+  .header1 input {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .header1 button {
+    border: none;
+    width: 150px;
+    margin-left: 10px;
+    background-color: #04dfdf;
+  }
+  .header2 {
+    margin-top: 10px;
+    display: -ms-grid;
+    display: grid;
+    padding: 10px;
+    -ms-grid-columns: 80px 80px 80px 80px 80px 80px;
+        grid-template-columns: 80px 80px 80px 80px 80px 80px;
+    cursor: pointer;
+    text-transform: capitalize;
+    list-style-type: square;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #616161;
+  }
+  .bigdiv1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px;
+        grid-template-columns: 300px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    grid-gap: 50px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 20PX;
+    text-align: center;
+  }
+  .bigdiv1 .box img {
+    width: 100%;
+  }
+  .bigdiv1 #webp {
+    border-left: 1px solid gray;
+    border-right: 1px solid grey;
+    padding: 10px;
+  }
+  .bigdiv1 .btn {
+    margin: auto;
+    margin-top: 50px;
+    background-color: #04dfdf;
+    color: white;
+  }
+  .bigdiv2 {
+    margin-top: 20px;
+    background-image: url(./img/foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+  }
+  .bigdiv2 .box1 {
+    margin-top: 20px;
+    position: relative;
+    top: 100px;
+  }
+  .bigdiv2 .box1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  .bigdiv2 .box2 {
+    position: relative;
+    top: 150px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100px 100px 150px;
+        grid-template-columns: 100px 100px 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+  }
+  .bigdiv2 .box2 .one {
+    padding: 20px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  .bigdiv2 .box2 .one:hover {
+    background-color: #04dfdf;
+    cursor: pointer;
+  }
+  .bigdiv2 .box2 #one1 {
+    background-color: #04dfdf;
+  }
+  .bigdiv3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 460px;
+        grid-template-columns: 460px;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .bigdiv3 .boshdiv1 {
+    background-color: #131313;
+    color: white;
+  }
+  .bigdiv3 .boshdiv1 .box {
+    border: 1PX SOLID black;
+    padding: 10px;
+    position: relative;
+  }
+  .bigdiv3 .boshdiv1 .box:hover {
+    background-color: #04dfdf;
+    cursor: pointer;
+    -webkit-transition: .9s;
+    transition: .9s;
+  }
+  .bigdiv3 .boshdiv1 .box .span1 {
+    padding: 5px;
+  }
+  .bigdiv3 .boshdiv1 .box .span2 {
+    font-size: 12px;
+    color: #8a8a8a;
+  }
+  .bigdiv3 .boshdiv1 .box .box2 {
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    background-color: #04dfdf;
+    top: 0;
+    left: 400px;
+  }
+  .bigdiv3 .boshdiv1 .box:hover .box2 {
+    background-color: #131313;
+    -webkit-transition: .9s;
+    transition: .9s;
+  }
+  .bigdiv3 .boshdiv2 {
+    border: 1px solid black;
+    background-image: url(./image/MonsterPick.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 500px;
+  }
+  .bigdiv3 .boshdiv2 .box3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: translate(230%, 260%);
+            transform: translate(230%, 260%);
+    -webkit-transition: .7s;
+    transition: .7s;
+  }
+  .bigdiv3 .boshdiv2 .box3:hover {
+    background-color: white;
+  }
+  .bigdiv3 .boshdiv2 .box3 i {
+    font-size: 60px;
+    color: red;
+    margin-top: 15px;
+  }
+  .bigdiv4 {
+    background-color: #181717;
+    color: white;
+  }
+  .bigdiv4 .im4 {
+    display: block;
+    width: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    margin: 10px;
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
+    border-radius: 10px;
+  }
+  .bigdiv4 .im4:hover {
+    opacity: -1;
+  }
+  .bigdiv4 .im4:hover .divone {
+    background-color: #fafafa;
+  }
+  .sp1 {
+    color: turquoise;
+  }
+  .bdiv {
+    background-color: black;
+    padding: 10px;
+  }
+  .bigdiv5 {
+    padding-top: 50px;
+    color: white;
+  }
+  .bigdiv5 img {
+    color: white !important;
+  }
+  .bigdiv5 p:hover {
+    color: #04dfdf;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 801px) {
+  .header1 .box {
+    margin-top: 20px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 700px 200px 200px;
+        grid-template-columns: 700px 200px 200px;
+  }
+  .header1 #ic {
+    position: relative;
+    top: -25px;
+    left: 880px;
+    cursor: pointer;
+  }
+  .header1 #ic:hover {
+    color: aqua;
+  }
+  .header1 input {
+    width: 200px;
+    margin-right: 10px;
+  }
+  .header1 button {
+    border: none;
+    width: 200px;
+    margin-left: 10px;
+    background-color: #04dfdf;
+  }
+  .header2 {
+    margin-top: 10px;
+    display: -ms-grid;
+    display: grid;
+    padding: 10px;
+    -ms-grid-columns: 80px 80px 80px 80px 80px 390px 0px 70px 70px 70px 70px 70px;
+        grid-template-columns: 80px 80px 80px 80px 80px 390px 0px 70px 70px 70px 70px 70px;
+    text-transform: capitalize;
+    list-style-type: square;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #616161;
+  }
+  .bigdiv1 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 200px 200px 200px;
+        grid-template-columns: 200px 200px 200px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    grid-gap: 50px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 20PX;
+    text-align: center;
+  }
+  .bigdiv1 .box img {
+    width: 100%;
+  }
+  .bigdiv1 #webp {
+    border-left: 1px solid gray;
+    border-right: 1px solid grey;
+    padding: 10px;
+  }
+  .bigdiv1 .btn {
+    margin: auto;
+    margin-top: 20px;
+    background-color: #04dfdf;
+    color: white;
+  }
+  .bigdiv2 {
+    margin-top: 20px;
+    background-image: url(./img/foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+  }
+  .bigdiv2 .box1 {
+    margin-top: 20px;
+    position: relative;
+    top: 100px;
+  }
+  .bigdiv2 .box1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  .bigdiv2 .box2 {
+    position: relative;
+    top: 150px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100px 100px 150px;
+        grid-template-columns: 100px 100px 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+  }
+  .bigdiv2 .box2 .one {
+    padding: 20px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  .bigdiv2 .box2 .one:hover {
+    background-color: #04dfdf;
+    cursor: pointer;
+  }
+  .bigdiv2 .box2 #one1 {
+    background-color: #04dfdf;
+  }
+  .bigdiv3 {
+    display: -ms-grid;
+    display: grid;
+    margin-top: 50px;
+    -ms-grid-columns: 500px  600px;
+        grid-template-columns: 500px  600px;
+  }
+  .bigdiv3 .boshdiv1 {
+    background-color: #131313;
+    color: white;
+  }
+  .bigdiv3 .boshdiv1 .box {
+    border: 1PX SOLID black;
+    padding: 10px;
+    position: relative;
+  }
+  .bigdiv3 .boshdiv1 .box a {
+    text-decoration: none;
+  }
+  .bigdiv3 .boshdiv1 .box:hover {
+    background-color: #04dfdf;
+    cursor: pointer;
+    -webkit-transition: .9s;
+    transition: .9s;
+  }
+  .bigdiv3 .boshdiv1 .box .span1 {
+    padding: 5px;
+  }
+  .bigdiv3 .boshdiv1 .box .span2 {
+    font-size: 12px;
+    color: #8a8a8a;
+  }
+  .bigdiv3 .boshdiv1 .box .box2 {
+    display: inline-block;
+    padding: 5px;
+    position: absolute;
+    background-color: #04dfdf;
+    top: 0;
+    left: 440px;
+  }
+  .bigdiv3 .boshdiv1 .box:hover .box2 {
+    background-color: #131313;
+    -webkit-transition: .9s;
+    transition: .9s;
+  }
+  .bigdiv3 .boshdiv2 {
+    border: 1px solid black;
+    background-image: url(./image/MonsterPick.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .bigdiv3 .boshdiv2 .box3 {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: translate(280%, 300%);
+            transform: translate(280%, 300%);
+    -webkit-transition: .7s;
+    transition: .7s;
+  }
+  .bigdiv3 .boshdiv2 .box3:hover {
+    background-color: white;
+  }
+  .bigdiv3 .boshdiv2 .box3 i {
+    font-size: 60px;
+    color: red;
+    margin-top: 15px;
+  }
+  .bigdiv4 {
+    border-bottom: 2px solid white;
+    margin-top: 50px;
+    background-color: #181717;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 800px 400px;
+        grid-template-columns: 800px 400px;
+    color: white;
+    height: 900px;
+  }
+  .bigdiv4 .boxdiv1 {
+    height: 800px;
+  }
+  .bigdiv4 .boxdiv1 h1 {
+    color: white;
+  }
+  .bigdiv4 .boxdiv1 .divone {
+    opacity: 1;
+  }
+  .bigdiv4 .boxdiv1 .divone .im4 {
+    display: block;
+    width: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    margin: 10px;
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
+    border-radius: 10px;
+  }
+  .bigdiv4 .boxdiv1 .divone .im4:hover {
+    opacity: -1;
+  }
+  .bigdiv4 .boxdiv1 .divone .im4:hover .divone {
+    background-color: #fafafa;
+  }
+  .bigdiv4 .boxdiv1 .divone .sp1 {
+    color: turquoise;
+  }
+  .bigdiv4 .boxdiv2 .im6 {
+    position: relative;
+    top: -200px;
+    left: 50px;
+  }
+  .bdiv {
+    background-color: black;
+    padding: 10px;
+  }
+  .bigdiv5 {
+    padding-top: 50px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 300px 300px 300px 300px;
+        grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 10px;
+    color: white;
+  }
+  .bigdiv5 img {
+    color: white !important;
+  }
+  .bigdiv5 p:hover {
+    color: #04dfdf;
+    cursor: pointer;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

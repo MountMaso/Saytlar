@@ -1,0 +1,528 @@
+@media screen and (max-width: 800px) {
+    
+
+.header1{
+
+    .box{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:160px 150px 50px;
+    }
+    #ic{
+        position: relative;
+        top: -25px;
+        left: 880px; 
+        cursor: pointer;
+        &:hover{
+            color:aqua;
+        }
+    }
+    input{
+        width: 200px;
+        margin-right: 10px;
+    }
+    button{
+        border: none;
+        width: 150px;
+        margin-left: 10px; 
+        background-color: rgb(4, 223, 223);
+    }
+}
+.header2{
+    margin-top: 10px;
+    // border: 1px solid red;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px ;
+    cursor: pointer;
+    text-transform: capitalize;
+    list-style-type: square;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgb(97, 97, 97);
+
+}
+.bigdiv1{  
+    display: grid;
+    grid-template-columns: 300px;
+    justify-content: space-around;
+    grid-gap: 50px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 20PX;
+    text-align: center;
+    .box{
+        img{
+            width: 100%;
+        }
+    }
+    #webp{
+        border-left: 1px solid gray;
+        border-right: 1px solid grey;
+        padding: 10px;
+    }
+    .btn{
+        margin: auto;
+        margin-top: 50px;
+        background-color:rgb(4, 223, 223) ;
+        color: white;
+    }
+}
+.bigdiv2{
+    margin-top: 20px;
+    background-image: url(./img/foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    .box1{
+        // border: 1px solid green;
+        margin-top: 20px;
+        position: relative;
+        top: 100px;
+        h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        
+     }
+     
+    }   
+    .box2{
+        position: relative;
+        top: 150px;
+        display: grid;
+        grid-template-columns: 100px 100px 150px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 18px;
+        border-bottom: 1px solid grey;
+        .one{
+            // border: 1px solid rgb(4, 223, 223);
+            padding: 20px;
+            transition: 0.8s;
+            &:hover{
+                background-color:rgb(4, 223, 223) ;
+                cursor: pointer;
+            }
+        }
+        #one1{
+            background-color:rgb(4, 223, 223)  ;
+        }
+    }
+    
+}
+.bigdiv3{
+    // border: 1px solid green;
+    display: grid;
+    grid-template-columns: 460px  ;   
+    margin: auto; 
+    margin-top: 5px;
+    .boshdiv1{
+        // border: 1px solid red;
+        background-color: rgb(19, 19, 19);
+        color: white;
+        .box{
+            border: 1PX SOLID black;
+            padding: 10px;
+            position: relative;
+            &:hover{
+                background-color:rgb(4, 223, 223) ;
+                cursor: pointer;
+                transition: .9s;
+            }
+            
+            .span1{
+                padding: 5px;
+            }
+            .span2{
+                font-size: 12px;
+                color: rgb(138, 138, 138);
+            }
+            .box2{
+                // border: 1px solid forestgreen;
+                display: inline-block;
+                padding: 5px;
+                position: absolute;
+                background-color:rgb(4, 223, 223) ;
+                top: 0;
+                left:400px;
+            }
+        }
+        .box:hover .box2{
+            background-color: rgb(19, 19, 19);
+            transition: .9s;
+        }
+    }
+    .boshdiv2{
+        border: 1px solid black;
+            background-image: url(./image/MonsterPick.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            object-fit: cover;
+            height: 500px;
+            .box3{
+                // border: 1px solid white;
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                text-align: center;
+                display: inline-block;
+                transform: translate(230% , 260%);
+                transition: .7s;
+                &:hover{
+                    background-color: white;
+                }
+                
+                i{
+                    font-size: 60px;
+                    color: red;
+                    margin-top: 15px;
+                }
+            }
+      
+    }
+}
+
+   .bigdiv4{
+    background-color: rgb(24, 23, 23);
+    color: white;
+    .im4{
+        display: block;
+        width: 100px;
+        object-fit: cover;
+        object-position: center;
+        margin: 10px;
+        transition: 0.9s;
+        border-radius: 10px;
+        &:hover{
+            opacity: -1;
+            
+        }
+    }
+
+     .im4:hover .divone{
+    background-color: rgba(250, 250, 250, 1);
+}
+   }
+
+   .sp1{
+    color: turquoise;
+}
+
+
+.bdiv{
+    background-color: black;
+    padding: 10px;
+}
+.bigdiv5{
+    padding-top: 50px;
+    color: white;
+    
+    img{
+        color: white !important;
+    }
+    p:hover{
+        color:rgb(4, 223, 223) ;
+        cursor: pointer;
+    }
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:801px) {
+    
+
+.header1{
+
+    .box{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns:700px 200px 200px;
+    }
+    #ic{
+        position: relative;
+        top: -25px;
+        left: 880px; 
+        cursor: pointer;
+        &:hover{
+            color:aqua;
+        }
+    }
+    input{
+        width: 200px;
+        margin-right: 10px;
+    }
+    button{
+        border: none;
+        width: 200px;
+        margin-left: 10px; 
+        background-color: rgb(4, 223, 223);
+    }
+}
+.header2{
+    margin-top: 10px;
+    // border: 1px solid red;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 80px 80px 80px 80px 80px 390px 0px 70px 70px 70px 70px 70px;
+    text-transform: capitalize;
+    list-style-type: square;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: rgb(97, 97, 97);
+
+}
+.bigdiv1{  
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-around;
+    grid-gap: 50px;
+    padding: 20px;
+    margin: 10px;
+    margin-top: 20PX;
+    text-align: center;
+    .box{
+        img{
+            width: 100%;
+        }
+    }
+    #webp{
+        border-left: 1px solid gray;
+        border-right: 1px solid grey;
+        padding: 10px;
+    }
+    .btn{
+        margin: auto;
+        margin-top: 20px;
+        background-color:rgb(4, 223, 223) ;
+        color: white;
+    }
+}
+.bigdiv2{
+    margin-top: 20px;
+    background-image: url(./img/foto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    .box1{
+        // border: 1px solid green;
+        margin-top: 20px;
+        position: relative;
+        top: 100px;
+        h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        
+     }
+     
+    }   
+    .box2{
+        position: relative;
+        top: 150px;
+        display: grid;
+        grid-template-columns: 100px 100px 150px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 18px;
+        border-bottom: 1px solid grey;
+        .one{
+            // border: 1px solid rgb(4, 223, 223);
+            padding: 20px;
+            transition: 0.8s;
+            &:hover{
+                background-color:rgb(4, 223, 223) ;
+                cursor: pointer;
+            }
+        }
+        #one1{
+            background-color:rgb(4, 223, 223)  ;
+        }
+    }
+    
+}
+
+.bigdiv3{
+    // border: 1px solid green;
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 500px  600px;    
+  
+    .boshdiv1{
+        // border: 1px solid red;
+        background-color: rgb(19, 19, 19);
+        color: white;
+        .box{
+            border: 1PX SOLID black;
+            padding: 10px;
+            position: relative; 
+    a{
+        text-decoration: none;
+    }
+            &:hover{
+                background-color:rgb(4, 223, 223) ;
+                cursor: pointer;
+                transition: .9s;
+            }
+            
+            .span1{
+                padding: 5px;
+            }
+            .span2{
+                font-size: 12px;
+                color: rgb(138, 138, 138);
+            }
+            .box2{
+                // border: 1px solid forestgreen;
+                display: inline-block;
+                padding: 5px;
+                position: absolute;
+                background-color:rgb(4, 223, 223) ;
+                top: 0;
+                left:440px;
+            }
+        }
+        .box:hover .box2{
+            background-color: rgb(19, 19, 19);
+            transition: .9s;
+        }
+    }
+    .boshdiv2{
+        border: 1px solid black;
+            background-image: url(./image/MonsterPick.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            object-fit: cover;
+            .box3{
+                // border: 1px solid white;
+                width: 90px;
+                height: 90px;
+                border-radius: 50%;
+                text-align: center;
+                display: inline-block;
+                transform: translate(280% ,  300%);
+                transition: .7s;
+                &:hover{
+                    background-color: white;
+                }
+                
+                i{
+                    font-size: 60px;
+                    color: red;
+                    margin-top: 15px;
+                }
+            }
+      
+    }
+}
+
+
+.bigdiv4{
+    // border: 1px solid green;
+    border-bottom: 2px solid white;
+    margin-top: 50px;
+    background-color: rgb(24, 23, 23);
+    display: grid;
+    grid-template-columns: 800px 400px;
+    color: white;
+    height: 900px;
+    .boxdiv1{
+        // border: 1px solid black;
+        height: 800px;
+        h1{
+            color: white;
+        }
+        .divone{
+            // border: 1px solid white;
+            // width: 175px;
+            opacity: 1;
+            
+            .im4{
+                display: block;
+                width: 200px;
+                object-fit: cover;
+                object-position: center;
+                margin: 10px;
+                transition: 0.9s;
+                border-radius: 10px;
+                &:hover{
+                    opacity: -1;
+                    
+                }
+            }
+  
+             .im4:hover .divone{
+            background-color: rgba(250, 250, 250, 1);
+        }
+        .sp1{
+            color: turquoise;
+        }
+        }
+       
+   
+    }
+    
+    .boxdiv2{
+        // border: 1px solid red;
+        .im6{
+            // border: 1px solid red;
+            position: relative;
+            top: -200px;
+            left: 50px;
+        }
+    }
+}
+
+.bdiv{
+    background-color: black;
+    padding: 10px;
+}
+.bigdiv5{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px;
+    grid-gap: 10px;
+    color: white;
+    
+    img{
+        color: white !important;
+    }
+    p:hover{
+        color:rgb(4, 223, 223) ;
+        cursor: pointer;
+    }
+}
+
+
+
+
+
+
+}
